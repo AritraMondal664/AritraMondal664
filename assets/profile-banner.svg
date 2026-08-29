@@ -148,19 +148,19 @@
       <text x="0" y="48" xml:space="preserve"><tspan fill="#79c0ff" font-weight="500">Focus</tspan><tspan fill="#30363d"> ........... </tspan><tspan fill="#c9d1d9" font-weight="500">Java &amp; Full-Stack Development</tspan></text>
 
       <!-- Line 4: Languages -->
-      <text x="0" y="72" xml:space="preserve"><tspan fill="#79c0ff" font-weight="500">Languages</tspan><tspan fill="#30363d"> ....... </tspan><tspan fill="#e3b341" font-weight="500">Java, Python, JavaScript, HTML, CSS</tspan></text>
+      <text x="0" y="72" xml:space="preserve"><tspan fill="#79c0ff" font-weight="500">Languages</tspan><tspan fill="#30363d"> ....... </tspan><tspan fill="#e3b341" font-weight="500">Java, Python, JavaScript, TypeScript, SQL</tspan></text>
 
       <!-- Line 5: Backend -->
-      <text x="0" y="96" xml:space="preserve"><tspan fill="#79c0ff" font-weight="500">Backend</tspan><tspan fill="#30363d"> ......... </tspan><tspan fill="#c9d1d9">Spring Boot, Node.js, Express.js</tspan></text>
+      <text x="0" y="96" xml:space="preserve"><tspan fill="#79c0ff" font-weight="500">Backend</tspan><tspan fill="#30363d"> ......... </tspan><tspan fill="#c9d1d9">Spring Boot, Node.js, Express.js, JDBC</tspan></text>
 
       <!-- Line 6: Frontend -->
-      <text x="0" y="120" xml:space="preserve"><tspan fill="#79c0ff" font-weight="500">Frontend</tspan><tspan fill="#30363d"> ........ </tspan><tspan fill="#c9d1d9">React, Next.js, Tailwind CSS</tspan></text>
+      <text x="0" y="120" xml:space="preserve"><tspan fill="#79c0ff" font-weight="500">Frontend</tspan><tspan fill="#30363d"> ........ </tspan><tspan fill="#c9d1d9">React JS, Next.js, Tailwind CSS</tspan></text>
 
       <!-- Line 7: Database -->
-      <text x="0" y="144" xml:space="preserve"><tspan fill="#79c0ff" font-weight="500">Databases</tspan><tspan fill="#30363d"> ....... </tspan><tspan fill="#c9d1d9">MySQL, Oracle, MongoDB, SQL</tspan></text>
+      <text x="0" y="144" xml:space="preserve"><tspan fill="#79c0ff" font-weight="500">Databases</tspan><tspan fill="#30363d"> ....... </tspan><tspan fill="#c9d1d9">MySQL, Oracle DB, MongoDB</tspan></text>
 
       <!-- Line 8: Tools -->
-      <text x="0" y="168" xml:space="preserve"><tspan fill="#79c0ff" font-weight="500">Tools</tspan><tspan fill="#30363d"> ........... </tspan><tspan fill="#c9d1d9">JDBC, Git, GitHub, Docker, AWS, Netlify</tspan></text>
+      <text x="0" y="168" xml:space="preserve"><tspan fill="#79c0ff" font-weight="500">Tools</tspan><tspan fill="#30363d"> ........... </tspan><tspan fill="#c9d1d9">Git, GitHub Actions, Docker, AWS, Netlify</tspan></text>
 
       <!-- Line 9: Contact -->
       <text x="0" y="192" xml:space="preserve"><tspan fill="#79c0ff" font-weight="500">Contact</tspan><tspan fill="#30363d"> ......... </tspan><tspan fill="#58a6ff">aritra.work2001@gmail.com</tspan></text>

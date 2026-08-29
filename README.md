@@ -15,7 +15,7 @@ Software Developer — Java & Full-Stack Systems
 
 aritra@github:~$ focus
 
-Java • Spring Boot • Python • React • Next.js • Node.js • SQL • Docker • AWS
+Java • Spring Boot • Python • React • Next.js • TypeScript • SQL • AWS • Docker
 ```
 
 ---
@@ -28,10 +28,11 @@ aritra@github:~$ cat tech-stack.json
 
 ```json
 {
-  "backend":    ["Java", "Spring Boot", "Node.js", "Express.js", "JDBC", "Python"],
-  "frontend":   ["React", "Next.js", "JavaScript", "HTML", "CSS"],
-  "databases":  ["MySQL", "Oracle", "MongoDB", "SQL"],
-  "tools":      ["Git", "GitHub", "Docker", "AWS", "Netlify"]
+  "programming": ["Java", "Python", "SQL", "C", "JavaScript", "TypeScript"],
+  "backend":     ["Spring Boot", "Node.js", "Express.js", "JDBC", "REST APIs"],
+  "frontend":    ["React JS", "Next.js", "Tailwind CSS", "HTML5", "CSS3"],
+  "databases":   ["MySQL", "Oracle Database", "MongoDB"],
+  "devops_tools":["Git", "GitHub Actions", "Docker", "AWS", "Netlify"]
 }
 ```
 
@@ -39,10 +40,10 @@ aritra@github:~$ cat tech-stack.json
 
 | Domain | Technologies & Frameworks |
 | :--- | :--- |
-| **Backend & Core** | `Java` `Spring Boot` `Node.js` `Express.js` `JDBC` `Python` |
-| **Frontend** | `React` `Next.js` `JavaScript` `HTML5` `CSS3` |
-| **Databases** | `MySQL` `Oracle` `MongoDB` `SQL` |
-| **Tools & Cloud** | `Git` `GitHub` `Docker` `AWS` `Netlify` |
+| **Backend & Core** | `Java` `Spring Boot` `JDBC` `Node.js` `Express.js` `Python` `C` |
+| **Frontend** | `React JS` `Next.js` `TypeScript` `JavaScript` `Tailwind CSS` `HTML5` `CSS3` |
+| **Databases** | `MySQL` `Oracle Database` `MongoDB` `SQL` |
+| **Tools & Cloud** | `Git` `GitHub Actions` `Docker` `AWS` `Netlify` |
 
 </div>
 
@@ -70,8 +71,8 @@ aritra@github:~$ cat /etc/current-focus.conf
 Directives:
   - Java backend engineering & Spring Boot microservices
   - Relational & NoSQL database architecture (MySQL, Oracle, MongoDB)
-  - Full-stack web application development (React / Next.js)
-  - Containerization & deployment pipelines (Docker, AWS, Netlify)
+  - Full-stack web application development (React / Next.js / TypeScript)
+  - CI/CD automation & cloud deployments (GitHub Actions, Docker, AWS, Netlify)
 ```
 
 ---
@@ -84,8 +85,8 @@ aritra@github:~$ cat contact.txt
 
 ```text
 --------------------------------------------------------------------------------
-PORTFOLIO ...... https://aritramondal.dev
-LINKEDIN ....... https://www.linkedin.com/in/aritra-mondal-dev
+PORTFOLIO ...... https://aritramondalportfolio.netlify.app/
+LINKEDIN ....... https://www.linkedin.com/in/aritra-mondal-2b8a05363/
 GITHUB ......... https://github.com/AritraMondal664
 EMAIL .......... mailto:aritra.work2001@gmail.com
 --------------------------------------------------------------------------------
@@ -93,9 +94,9 @@ EMAIL .......... mailto:aritra.work2001@gmail.com
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-161b22?style=flat-square&logo=googlechrome&logoColor=79c0ff)](https://aritramondal.dev)
+[![Portfolio](https://img.shields.io/badge/Portfolio-161b22?style=flat-square&logo=netlify&logoColor=79c0ff)](https://aritramondalportfolio.netlify.app/)
 &nbsp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-161b22?style=flat-square&logo=linkedin&logoColor=79c0ff)](https://www.linkedin.com/in/aritra-mondal-dev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-161b22?style=flat-square&logo=linkedin&logoColor=79c0ff)](https://www.linkedin.com/in/aritra-mondal-2b8a05363/)
 &nbsp;
 [![GitHub](https://img.shields.io/badge/GitHub-161b22?style=flat-square&logo=github&logoColor=79c0ff)](https://github.com/AritraMondal664)
 &nbsp;
