@@ -3,8 +3,6 @@
 <!-- HERO TERMINAL BANNER -->
 <img src="./assets/profile-banner.svg" alt="Aritra Mondal Terminal System Info" width="100%" />
 
-<img src="./assets/terminal-line.svg" width="100%" />
-
 </div>
 
 ```bash
@@ -93,27 +91,7 @@ EMAIL .......... aritra.work2001@gmail.com
 ```
 
 <div align="center">
-
-<a href="https://aritramondalportfolio.netlify.app/">
-  <img src="./assets/badge-portfolio.svg" alt="Portfolio" />
-</a>
-&nbsp;
-<a href="https://www.linkedin.com/in/aritra-mondal-2b8a05363/">
-  <img src="./assets/badge-linkedin.svg" alt="LinkedIn" />
-</a>
-&nbsp;
-<a href="https://github.com/AritraMondal664">
-  <img src="./assets/badge-github.svg" alt="GitHub" />
-</a>
-&nbsp;
-<a href="mailto:aritra.work2001@gmail.com">
-  <img src="./assets/badge-email.svg" alt="Email" />
-</a>
-
-<br/>
-
-<img src="./assets/terminal-line.svg" width="100%" />
-
-<sub>⚡ Monospace Terminal Dashboard • <b>Aritra Mondal</b></sub>
-
+  <a href="https://aritramondalportfolio.netlify.app/"><img src="./assets/badge-portfolio.svg" alt="Portfolio" /></a> <a href="https://www.linkedin.com/in/aritra-mondal-2b8a05363/"><img src="./assets/badge-linkedin.svg" alt="LinkedIn" /></a> <a href="https://github.com/AritraMondal664"><img src="./assets/badge-github.svg" alt="GitHub" /></a> <a href="mailto:aritra.work2001@gmail.com"><img src="./assets/badge-email.svg" alt="Email" /></a>
+  <br/><br/>
+  <sub>⚡ Monospace Terminal Dashboard • <b>Aritra Mondal</b></sub>
 </div>
