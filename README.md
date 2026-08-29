@@ -94,13 +94,21 @@ EMAIL .......... aritra.work2001@gmail.com
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-161b22?style=flat-square&logo=netlify&logoColor=00C7B7)](https://aritramondalportfolio.netlify.app/)
+<a href="https://aritramondalportfolio.netlify.app/">
+  <img src="./assets/badge-portfolio.svg" alt="Portfolio" />
+</a>
 &nbsp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-161b22?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aritra-mondal-2b8a05363/)
+<a href="https://www.linkedin.com/in/aritra-mondal-2b8a05363/">
+  <img src="./assets/badge-linkedin.svg" alt="LinkedIn" />
+</a>
 &nbsp;
-[![GitHub](https://img.shields.io/badge/GitHub-161b22?style=flat-square&logo=github&logoColor=white)](https://github.com/AritraMondal664)
+<a href="https://github.com/AritraMondal664">
+  <img src="./assets/badge-github.svg" alt="GitHub" />
+</a>
 &nbsp;
-[![Email](https://img.shields.io/badge/Email-161b22?style=flat-square&logo=gmail&logoColor=EA4335)](mailto:aritra.work2001@gmail.com)
+<a href="mailto:aritra.work2001@gmail.com">
+  <img src="./assets/badge-email.svg" alt="Email" />
+</a>
 
 <br/>
 

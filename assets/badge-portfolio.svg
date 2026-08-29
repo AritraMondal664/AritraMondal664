@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="82" height="20" viewBox="0 0 82 20">
+  <rect width="82" height="20" rx="3" fill="#161b22" />
+  <!-- Netlify Icon in Brand Teal -->
+  <g transform="translate(6, 3.5) scale(0.55)">
+    <path fill="#00C7B7" d="M6.48 2.05L2.05 6.48v11.04l4.43 4.43h11.04l4.43-4.43V6.48L17.52 2.05H6.48zm.86 1.77h9.32l3.47 3.47v9.32l-3.47 3.47H7.34l-3.47-3.47V7.29l3.47-3.47zm4.66 2.68a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm0 1.25a.25.25 0 1 1 0 .5.25.25 0 0 1 0-.5zm-3.5 3.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm7 0a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm-7 1.25a.25.25 0 1 1 0 .5.25.25 0 0 1 0-.5zm7 0a.25.25 0 1 1 0 .5.25.25 0 0 1 0-.5zm-3.5 3.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm0 1.25a.25.25 0 1 1 0 .5.25.25 0 0 1 0-.5z"/>
+  </g>
+  <text x="24" y="14" fill="#ffffff" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="11" font-weight="500">Portfolio</text>
+</svg>
