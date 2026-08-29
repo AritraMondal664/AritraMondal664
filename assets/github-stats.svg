@@ -1,24 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 195" width="100%" height="100%">
   <defs>
     <linearGradient id="statsBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0d1117" />
-      <stop offset="100%" stop-color="#070a0f" />
+      <stop offset="0%" stop-color="#0e131a" />
+      <stop offset="50%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#0a0d13" />
     </linearGradient>
     <linearGradient id="barJava" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ed8b00" />
-      <stop offset="100%" stop-color="#f59e0b" />
+      <stop offset="0%" stop-color="#d29922" />
+      <stop offset="100%" stop-color="#e3b341" />
     </linearGradient>
     <linearGradient id="barReact" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00f0ff" />
-      <stop offset="100%" stop-color="#38bdf8" />
+      <stop offset="0%" stop-color="#388bfd" />
+      <stop offset="100%" stop-color="#79c0ff" />
     </linearGradient>
     <linearGradient id="barPython" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#3776ab" />
-      <stop offset="100%" stop-color="#60a5fa" />
+      <stop offset="0%" stop-color="#58a6ff" />
+      <stop offset="100%" stop-color="#a5d6ff" />
     </linearGradient>
     <linearGradient id="barDb" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#39d353" />
-      <stop offset="100%" stop-color="#10b981" />
+      <stop offset="0%" stop-color="#238636" />
+      <stop offset="100%" stop-color="#3fb950" />
     </linearGradient>
   </defs>
 
@@ -36,9 +37,9 @@
   <line x1="2" y1="32" x2="918" y2="32" stroke="#30363d" stroke-width="1" />
 
   <!-- Window Dots -->
-  <circle cx="18" cy="17" r="4.5" fill="#ff5f56" />
-  <circle cx="32" cy="17" r="4.5" fill="#ffbd2e" />
-  <circle cx="46" cy="17" r="4.5" fill="#27c93f" />
+  <circle cx="18" cy="17" r="4.5" fill="#f85149" opacity="0.85" />
+  <circle cx="32" cy="17" r="4.5" fill="#d29922" opacity="0.85" />
+  <circle cx="46" cy="17" r="4.5" fill="#3fb950" opacity="0.85" />
 
   <!-- Title -->
   <text x="460" y="21" text-anchor="middle" class="mono" fill="#8b949e" font-size="11.5" font-weight="500">
@@ -47,29 +48,29 @@
 
   <!-- COLUMN 1: Profile Metrics (x: 25 to 290) -->
   <g transform="translate(25, 56)" class="mono">
-    <text x="0" y="0" fill="#00f0ff" font-size="12.5" font-weight="700">📊 PROFILE METRICS</text>
+    <text x="0" y="0" fill="#79c0ff" font-size="12" font-weight="600">📊 PROFILE METRICS</text>
     <line x1="0" y1="9" x2="250" y2="9" stroke="#30363d" stroke-width="1" />
 
     <g transform="translate(0, 30)" font-size="11.5">
       <text x="0" y="0">
-        <tspan fill="#58a6ff" font-weight="600">Developer</tspan>
+        <tspan fill="#8b949e">Developer</tspan>
         <tspan fill="#484f58"> .... </tspan>
-        <tspan fill="#e6edf3">Aritra Mondal</tspan>
+        <tspan fill="#e6edf3" font-weight="500">Aritra Mondal</tspan>
       </text>
       <text x="0" y="22">
-        <tspan fill="#58a6ff" font-weight="600">Repositories</tspan>
+        <tspan fill="#8b949e">Repositories</tspan>
         <tspan fill="#484f58"> . </tspan>
-        <tspan fill="#7ee787" font-weight="bold">14 Public Repos</tspan>
+        <tspan fill="#7ee787" font-weight="600">14 Public Repos</tspan>
       </text>
       <text x="0" y="44">
-        <tspan fill="#58a6ff" font-weight="600">Focus</tspan>
+        <tspan fill="#8b949e">Focus</tspan>
         <tspan fill="#484f58"> ........ </tspan>
-        <tspan fill="#ffa657">Java &amp; Full-Stack</tspan>
+        <tspan fill="#e3b341">Java &amp; Full-Stack</tspan>
       </text>
       <text x="0" y="66">
-        <tspan fill="#58a6ff" font-weight="600">Status</tspan>
+        <tspan fill="#8b949e">Status</tspan>
         <tspan fill="#484f58"> ....... </tspan>
-        <tspan fill="#39d353">🟢 Active Dev</tspan>
+        <tspan fill="#3fb950" font-weight="500">🟢 Active Dev</tspan>
       </text>
     </g>
   </g>
@@ -79,37 +80,37 @@
 
   <!-- COLUMN 2: Stack Distribution (x: 320 to 590) -->
   <g transform="translate(320, 56)" class="mono">
-    <text x="0" y="0" fill="#00f0ff" font-size="12.5" font-weight="700">⚡ STACK DISTRIBUTION</text>
+    <text x="0" y="0" fill="#79c0ff" font-size="12" font-weight="600">⚡ STACK DISTRIBUTION</text>
     <line x1="0" y1="9" x2="260" y2="9" stroke="#30363d" stroke-width="1" />
 
     <!-- Java & Spring -->
     <g transform="translate(0, 24)">
-      <text x="0" y="0" fill="#e6edf3" font-size="11">Java &amp; Spring Boot</text>
-      <text x="260" y="0" text-anchor="end" fill="#ffa657" font-size="11" font-weight="bold">40%</text>
+      <text x="0" y="0" fill="#c9d1d9" font-size="11">Java &amp; Spring Boot</text>
+      <text x="260" y="0" text-anchor="end" fill="#e3b341" font-size="11" font-weight="500">40%</text>
       <rect x="0" y="5" width="260" height="5" rx="2.5" fill="#21262d" />
       <rect x="0" y="5" width="104" height="5" rx="2.5" fill="url(#barJava)" />
     </g>
 
     <!-- React & Next.js -->
     <g transform="translate(0, 46)">
-      <text x="0" y="0" fill="#e6edf3" font-size="11">React &amp; Next.js</text>
-      <text x="260" y="0" text-anchor="end" fill="#00f0ff" font-size="11" font-weight="bold">30%</text>
+      <text x="0" y="0" fill="#c9d1d9" font-size="11">React &amp; Next.js</text>
+      <text x="260" y="0" text-anchor="end" fill="#79c0ff" font-size="11" font-weight="500">30%</text>
       <rect x="0" y="5" width="260" height="5" rx="2.5" fill="#21262d" />
       <rect x="0" y="5" width="78" height="5" rx="2.5" fill="url(#barReact)" />
     </g>
 
     <!-- Node.js & Python -->
     <g transform="translate(0, 68)">
-      <text x="0" y="0" fill="#e6edf3" font-size="11">Node.js &amp; Python</text>
-      <text x="260" y="0" text-anchor="end" fill="#60a5fa" font-size="11" font-weight="bold">20%</text>
+      <text x="0" y="0" fill="#c9d1d9" font-size="11">Node.js &amp; Python</text>
+      <text x="260" y="0" text-anchor="end" fill="#a5d6ff" font-size="11" font-weight="500">20%</text>
       <rect x="0" y="5" width="260" height="5" rx="2.5" fill="#21262d" />
       <rect x="0" y="5" width="52" height="5" rx="2.5" fill="url(#barPython)" />
     </g>
 
     <!-- SQL & Databases -->
     <g transform="translate(0, 90)">
-      <text x="0" y="0" fill="#e6edf3" font-size="11">MySQL, Oracle &amp; Mongo</text>
-      <text x="260" y="0" text-anchor="end" fill="#39d353" font-size="11" font-weight="bold">10%</text>
+      <text x="0" y="0" fill="#c9d1d9" font-size="11">MySQL, Oracle &amp; Mongo</text>
+      <text x="260" y="0" text-anchor="end" fill="#7ee787" font-size="11" font-weight="500">10%</text>
       <rect x="0" y="5" width="260" height="5" rx="2.5" fill="#21262d" />
       <rect x="0" y="5" width="26" height="5" rx="2.5" fill="url(#barDb)" />
     </g>
@@ -118,31 +119,31 @@
   <!-- Vertical Divider 2 -->
   <line x1="605" y1="44" x2="605" y2="180" stroke="#30363d" stroke-width="1" stroke-dasharray="2,2" />
 
-  <!-- COLUMN 3: Dev Environment (x: 625 to 895, plenty of padding) -->
+  <!-- COLUMN 3: Dev Environment -->
   <g transform="translate(625, 56)" class="mono">
-    <text x="0" y="0" fill="#00f0ff" font-size="12.5" font-weight="700">🛠️ DEV ENVIRONMENT</text>
+    <text x="0" y="0" fill="#79c0ff" font-size="12" font-weight="600">🛠️ DEV ENVIRONMENT</text>
     <line x1="0" y1="9" x2="260" y2="9" stroke="#30363d" stroke-width="1" />
 
     <g transform="translate(0, 30)" font-size="11.5">
       <text x="0" y="0">
-        <tspan fill="#58a6ff" font-weight="600">VCS Engine</tspan>
+        <tspan fill="#8b949e">VCS Engine</tspan>
         <tspan fill="#484f58"> ..... </tspan>
-        <tspan fill="#e6edf3">Git &amp; GitHub</tspan>
+        <tspan fill="#c9d1d9">Git &amp; GitHub</tspan>
       </text>
       <text x="0" y="22">
-        <tspan fill="#58a6ff" font-weight="600">Containers</tspan>
+        <tspan fill="#8b949e">Containers</tspan>
         <tspan fill="#484f58"> ..... </tspan>
         <tspan fill="#79c0ff">Docker</tspan>
       </text>
       <text x="0" y="44">
-        <tspan fill="#58a6ff" font-weight="600">Cloud Target</tspan>
+        <tspan fill="#8b949e">Cloud Target</tspan>
         <tspan fill="#484f58"> ... </tspan>
-        <tspan fill="#f59e0b">AWS / Netlify</tspan>
+        <tspan fill="#e3b341">AWS / Netlify</tspan>
       </text>
       <text x="0" y="66">
-        <tspan fill="#58a6ff" font-weight="600">Architecture</tspan>
+        <tspan fill="#8b949e">Architecture</tspan>
         <tspan fill="#484f58"> ... </tspan>
-        <tspan fill="#a855f7">REST &amp; APIs</tspan>
+        <tspan fill="#d2a8ff">REST &amp; APIs</tspan>
       </text>
     </g>
   </g>
