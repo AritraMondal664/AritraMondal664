@@ -181,24 +181,11 @@ aritra@github:~$ ls ./projects
 ### 📊 `03_GITHUB_STATISTICS`
 
 ```bash
-aritra@github:~$ fastfetch --stats
+aritra@github:~$ systemctl status github-metrics.service
 ```
 
 <div align="center">
-  <table border="0">
-    <tr>
-      <td align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=AritraMondal664&show_icons=true&theme=tokyonight&bg_color=0d1117&title_color=00f0ff&text_color=c9d1d9&icon_color=39d353&border_color=30363d&hide_border=false" alt="Aritra's GitHub Stats" />
-      </td>
-      <td align="center">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AritraMondal664&layout=compact&theme=tokyonight&bg_color=0d1117&title_color=00f0ff&text_color=c9d1d9&border_color=30363d&hide_border=false" alt="Top Languages" />
-      </td>
-    </tr>
-  </table>
-  
-  <br/>
-  
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AritraMondal664&theme=tokyonight&background=0d1117&ring=00f0ff&fire=39d353&currStreakLabel=00f0ff&border=30363d&dates=c9d1d9" alt="GitHub Streak" />
+  <img src="./assets/github-stats.svg" alt="Aritra Mondal GitHub System Metrics" width="100%" />
 </div>
 
 ---
