@@ -1,106 +1,202 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 550" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 440" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c14" />
+      <stop offset="50%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#05080f" />
+    </linearGradient>
+    
+    <linearGradient id="titleBarGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#161b22" />
+      <stop offset="100%" stop-color="#0d1117" />
+    </linearGradient>
+
+    <!-- Neon Accents -->
+    <linearGradient id="cyanPurple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f0ff" />
+      <stop offset="50%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+
+    <linearGradient id="neonGreen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#39d353" />
+      <stop offset="100%" stop-color="#00f0ff" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#161b22" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#090d13" stop-opacity="0.9" />
+    </linearGradient>
+
+    <!-- Glow Filters -->
+    <filter id="cyanGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="subtleShadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="10" stdDeviation="15" flood-color="#00f0ff" flood-opacity="0.1" />
+    </filter>
+  </defs>
+
   <style>
     .mono {
-      font-family: ui-monospace, 'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace;
+      font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, Menlo, Monaco, 'Courier New', monospace;
     }
-    .ascii {
-      fill: #8b949e;
-      font-size: 11px;
-      line-height: 14px;
-      letter-spacing: 0.5px;
-      white-space: pre;
+    .cursor {
+      animation: blink 1s step-end infinite;
     }
-    .c-header-user {
-      fill: #58a6ff;
-      font-size: 13.5px;
-      font-weight: 700;
-    }
-    .c-header-line {
-      fill: #58a6ff;
-      font-size: 12px;
-      opacity: 0.6;
-    }
-    .c-sec-title {
-      fill: #ffa657;
-      font-size: 13px;
-      font-weight: 700;
-    }
-    .c-sec-line {
-      fill: #ffa657;
-      font-size: 12px;
-      opacity: 0.6;
-    }
-    .c-key {
-      fill: #ffa657;
-      font-size: 12px;
-      font-weight: 600;
-    }
-    .c-dots {
-      fill: #30363d;
-      font-size: 12px;
-    }
-    .c-val {
-      fill: #e6edf3;
-      font-size: 12px;
-      font-weight: 500;
-    }
-    .c-val-hl {
-      fill: #79c0ff;
-      font-size: 12px;
-      font-weight: 600;
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
     }
   </style>
-  <rect width="980" height="550" rx="6" ry="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
-  <text x="24" y="38.0" class="mono ascii" xml:space="preserve">                                            </text>
-  <text x="24" y="52.5" class="mono ascii" xml:space="preserve">                    &gt; Z|r                   </text>
-  <text x="24" y="67.0" class="mono ascii" xml:space="preserve">               }{Um)+ Z)  Ot!1              </text>
-  <text x="24" y="81.5" class="mono ascii" xml:space="preserve">            i1Of&lt;[Zr[ mr]{Zr]vaQ/           </text>
-  <text x="24" y="96.0" class="mono ascii" xml:space="preserve">          Of[ dUxXwj[ Zf[ 0/Ifpxl Z         </text>
-  <text x="24" y="110.5" class="mono ascii" xml:space="preserve">          Zj&gt; qv uZ(I Z(&lt;JO/&lt;1du&lt; Z)        </text>
-  <text x="24" y="125.0" class="mono ascii" xml:space="preserve">       (&gt; pn{_mu  Z|? wt Uwn? Zf&lt; mr]       </text>
-  <text x="24" y="139.5" class="mono ascii" xml:space="preserve">      m|lrqf//Zr!1Zx] mrI mr|UaQvxmr[ Z     </text>
-  <text x="24" y="154.0" class="mono ascii" xml:space="preserve">      mxI mx?QaLjmbz]twx] Zj[Xq\Ixm|I Z(    </text>
-  <text x="24" y="168.5" class="mono ascii" xml:space="preserve">    | qc( mx?fpj rw/l w/lvpc&lt;Jw|_ O)Irw\    </text>
-  <text x="24" y="183.0" class="mono ascii" xml:space="preserve">    ! Z)&lt; qx\&gt;dzi O)&lt;fm|ljpn/xmj] mx? mx]   </text>
-  <text x="24" y="197.5" class="mono ascii" xml:space="preserve">   (&gt; Z(?Cq/ XmxI/mr]\mx[\qzmch0wjmr] mr]   </text>
-  <text x="24" y="212.0" class="mono ascii" xml:space="preserve">   r] mrI ZjzhoJtpbz?|Zj]tqu\rm|i m\i Z( t  </text>
-  <text x="24" y="226.5" class="mono ascii" xml:space="preserve">  &amp;WU mx Ukv cw/?jm\l\Z(&gt;C0\&lt;Ypf&lt; m\&gt; pr rp </text>
-  <text x="24" y="241.0" class="mono ascii" xml:space="preserve">  w\  m|ixdz&lt;_mu|/mt&gt;fm|ljqt)Xpv(jmx? Zrt88 </text>
-  <text x="24" y="255.5" class="mono ascii" xml:space="preserve">  qtI m\Ijw/ jqt)Jdxtnwx}dohjtdbQLbu Xkn jw </text>
-  <text x="24" y="270.0" class="mono ascii" xml:space="preserve">  w\ cpf Xp0?}0\lfhJ|Yq/[xw/[jm|! Z|_ qr1_U </text>
-  <text x="24" y="284.5" class="mono ascii" xml:space="preserve">   n uqt Jdf nqt?rm|i\m\ulJ}&lt;&lt;pX? Z|i m| jq </text>
-  <text x="24" y="299.0" class="mono ascii" xml:space="preserve">  O)&lt; O1 fJ}&lt;+U}[Cm(l(w/!vm||Cbj Cq\ vprI\q </text>
-  <text x="24" y="313.5" class="mono ascii" xml:space="preserve">  pX  Z|&gt; Z| CbjrQkx\xq/|xbb\\qOcjdt Jbr Yp </text>
-  <text x="24" y="328.0" class="mono ascii" xml:space="preserve">  hu QptxcbkzYhoXzbwvJdjxCbr)uwtI Z1 YL{&lt;+U </text>
-  <text x="24" y="342.5" class="mono ascii" xml:space="preserve">  Zfxxoc Udj cqfIfwf{CQ)&lt;+U{&lt;+U}+0w(i m|!Yb </text>
-  <text x="24" y="357.0" class="mono ascii" xml:space="preserve">   t Q0|&lt;+U{&lt;+U{&lt;_0jutO1+(m||Udj Cqt ubZ](  </text>
-  <text x="24" y="371.5" class="mono ascii" xml:space="preserve">   {&lt;/kzi O)+xpf)Xpf!jwzzrmnnvqr}ndC cqt v  </text>
-  <text x="24" y="386.0" class="mono ascii" xml:space="preserve">    l Z(]jkWQUaMQcdQ[rZ(&lt;|Z|] wttJQ(&lt;+U{&lt;   </text>
-  <text x="24" y="400.5" class="mono ascii" xml:space="preserve">    ? m\+ O)_ pnnnL1&lt;+U{&lt;+U{&lt;+U{&lt;+U}IQp/_   </text>
-  <text x="24" y="415.0" class="mono ascii" xml:space="preserve">     +U{&lt;+U{&lt;+U{&lt;+U{&lt;_C|rYq/&lt; w/? m\Ij0j    </text>
-  <text x="24" y="429.5" class="mono ascii" xml:space="preserve">      U{&lt;&lt;Oxuzw\&gt; Z(! mf+]Oz?|wJ1[mt&gt; O     </text>
-  <text x="24" y="444.0" class="mono ascii" xml:space="preserve">       1+xL1&lt;IC{&lt;IZt+ m\ Udvl+U}&lt;+U{&lt;+      </text>
-  <text x="24" y="458.5" class="mono ascii" xml:space="preserve">         jQ|&lt;_U{&lt;+U{&lt;+U{&lt;+U{&lt;+U{&lt;+U{        </text>
-  <text x="24" y="473.0" class="mono ascii" xml:space="preserve">          U{&lt;+U{&lt;+U{&lt;+U{&lt;+U}&lt;&gt;Qt|Ub         </text>
-  <text x="24" y="487.5" class="mono ascii" xml:space="preserve">            &lt;+U}&lt;_U1_)mx vdcfXpu            </text>
-  <text x="24" y="502.0" class="mono ascii" xml:space="preserve">               }&lt;_U}&lt;+U{&lt;+U{&lt;+              </text>
-  <text x="24" y="516.5" class="mono ascii" xml:space="preserve">                    &lt;&lt;&lt;&lt;&lt;                   </text>
-  <text x="405" y="44" class="mono"><tspan class="c-header-user">aritra@github</tspan><tspan class="c-header-line"> ----------------------------------------------------</tspan></text>
-  <text x="405" y="68" class="mono" xml:space="preserve"><tspan class="c-key">Role:</tspan><tspan class="c-dots">.................... </tspan><tspan class="c-val-hl">Software Developer</tspan></text>
-  <text x="405" y="87.5" class="mono" xml:space="preserve"><tspan class="c-key">Focus:</tspan><tspan class="c-dots">................... </tspan><tspan class="c-val-hl">Java &amp; Full-Stack Development</tspan></text>
-  <text x="405" y="107.0" class="mono" xml:space="preserve"><tspan class="c-key">Backend:</tspan><tspan class="c-dots">................. </tspan><tspan class="c-val">Spring Boot, Node.js, Express.js</tspan></text>
-  <text x="405" y="126.5" class="mono" xml:space="preserve"><tspan class="c-key">Frontend:</tspan><tspan class="c-dots">................ </tspan><tspan class="c-val">React, Next.js</tspan></text>
-  <text x="405" y="146.0" class="mono" xml:space="preserve"><tspan class="c-key">Databases:</tspan><tspan class="c-dots">............... </tspan><tspan class="c-val">MySQL, Oracle, MongoDB</tspan></text>
-  <text x="405" y="165.5" class="mono" xml:space="preserve"><tspan class="c-key">Tools.DevOps:</tspan><tspan class="c-dots">............ </tspan><tspan class="c-val">JDBC, Git, GitHub, Docker, AWS, Netlify</tspan></text>
-  <text x="405" y="189.0" class="mono" xml:space="preserve"><tspan class="c-key">Languages.Programming:</tspan><tspan class="c-dots">... </tspan><tspan class="c-val">Java, Python, JavaScript</tspan></text>
-  <text x="405" y="208.5" class="mono" xml:space="preserve"><tspan class="c-key">Languages.Web:</tspan><tspan class="c-dots">........... </tspan><tspan class="c-val">HTML5, CSS3, SQL</tspan></text>
-  <text x="405" y="238.0" class="mono"><tspan class="c-sec-title">Contact</tspan><tspan class="c-sec-line"> -----------------------------------------------------------</tspan></text>
-  <text x="405" y="260.0" class="mono" xml:space="preserve"><tspan class="c-key">Email.Personal:</tspan><tspan class="c-dots">.......... </tspan><tspan class="c-val">aritra.work2001@gmail.com</tspan></text>
-  <text x="405" y="279.5" class="mono" xml:space="preserve"><tspan class="c-key">LinkedIn:</tspan><tspan class="c-dots">................ </tspan><tspan class="c-val">in/aritra-mondal-dev</tspan></text>
-  <text x="405" y="299.0" class="mono" xml:space="preserve"><tspan class="c-key">Portfolio:</tspan><tspan class="c-dots">............... </tspan><tspan class="c-val">aritramondal-portfolio.netlify.app</tspan></text>
-  <text x="405" y="318.5" class="mono" xml:space="preserve"><tspan class="c-key">GitHub:</tspan><tspan class="c-dots">.................. </tspan><tspan class="c-val">AritraMondal664</tspan></text>
-  <text x="405" y="348.0" class="mono"><tspan class="c-sec-title">Featured Projects</tspan><tspan class="c-sec-line"> -------------------------------------------------</tspan></text>
-  <text x="405" y="370.0" class="mono" xml:space="preserve"><tspan class="c-key">FullStack.Web:</tspan><tspan class="c-dots">........... </tspan><tspan class="c-val">Karnani &amp; Associates, Hilltain Group</tspan></text>
-  <text x="405" y="389.5" class="mono" xml:space="preserve"><tspan class="c-key">Enterprise.Java:</tspan><tspan class="c-dots">......... </tspan><tspan class="c-val">Banking Management System (JDBC/MySQL)</tspan></text>
-  <text x="405" y="409.0" class="mono" xml:space="preserve"><tspan class="c-key">ComputerVision.AI:</tspan><tspan class="c-dots">....... </tspan><tspan class="c-val">Gun Detection Tool (Python/OpenCV)</tspan></text>
+
+  <!-- Outer Window Frame -->
+  <rect x="8" y="8" width="944" height="424" rx="10" ry="10" fill="url(#bgGrad)" stroke="#30363d" stroke-width="1.2" filter="url(#subtleShadow)" />
+  <rect x="8" y="8" width="944" height="424" rx="10" ry="10" fill="none" stroke="url(#cyanPurple)" stroke-width="0.8" stroke-opacity="0.4" />
+
+  <!-- Terminal Title Bar -->
+  <path d="M 8 18 Q 8 8 18 8 L 942 8 Q 952 8 952 18 L 952 42 L 8 42 Z" fill="url(#titleBarGrad)" />
+  <line x1="8" y1="42" x2="952" y2="42" stroke="#30363d" stroke-width="1" />
+
+  <!-- macOS Window Control Dots -->
+  <circle cx="28" cy="25" r="5.5" fill="#ff5f56" stroke="#e0443e" stroke-width="0.5" />
+  <circle cx="46" cy="25" r="5.5" fill="#ffbd2e" stroke="#dea123" stroke-width="0.5" />
+  <circle cx="64" cy="25" r="5.5" fill="#27c93f" stroke="#1aab29" stroke-width="0.5" />
+
+  <!-- Window Header Title -->
+  <text x="480" y="29" text-anchor="middle" class="mono" fill="#8b949e" font-size="12" font-weight="500">
+    aritra@workstation: ~/AritraMondal664 (zsh)
+  </text>
+
+  <!-- Pulse Status Badge on Top Right -->
+  <g transform="translate(865, 19)">
+    <circle cx="6" cy="6" r="4" fill="#39d353" />
+    <circle cx="6" cy="6" r="4" fill="#39d353" opacity="0.6">
+      <animate attributeName="r" values="4;7;4" dur="2s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.6;0;0.6" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="17" y="10" class="mono" fill="#39d353" font-size="11" font-weight="600">LIVE</text>
+  </g>
+
+  <!-- ==================== LEFT COLUMN: CYBER WORKSTATION & CODE HUD ==================== -->
+  <g transform="translate(32, 64)">
+    <!-- Terminal Prompt Line -->
+    <text x="0" y="0" class="mono" font-size="13">
+      <tspan fill="#00f0ff" font-weight="bold">aritra</tspan><tspan fill="#8b949e">@</tspan><tspan fill="#39d353" font-weight="bold">github</tspan><tspan fill="#a855f7">:~$</tspan><tspan fill="#f0f6fc"> neofetch --profile</tspan>
+    </text>
+
+    <!-- Large 3D Neon ASCII Logo for ARITRA MONDAL -->
+    <g transform="translate(0, 20)">
+      <text x="0" y="14" class="mono" fill="#00f0ff" font-size="11" font-weight="bold" xml:space="preserve">  █████╗ ██████╗ ██╗████████╗██████╗  █████╗ </text>
+      <text x="0" y="27" class="mono" fill="#38bdf8" font-size="11" font-weight="bold" xml:space="preserve"> ██╔══██╗██╔══██╗██║╚══██╔══╝██╔══██╗██╔══██╗</text>
+      <text x="0" y="40" class="mono" fill="#58a6ff" font-size="11" xml:space="preserve"> ███████║██████╔╝██║   ██║   ██████╔╝███████║</text>
+      <text x="0" y="53" class="mono" fill="#79c0ff" font-size="11" xml:space="preserve"> ██╔══██║██╔══██╗██║   ██║   ██╔══██╗██╔══██║</text>
+      <text x="0" y="66" class="mono" fill="#a855f7" font-size="11" xml:space="preserve"> ██║  ██║██║  ██║██║   ██║   ██║  ██║██║  ██║</text>
+      <text x="0" y="79" class="mono" fill="#c084fc" font-size="11" xml:space="preserve"> ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝</text>
+    </g>
+
+    <!-- Tagline Badge -->
+    <g transform="translate(0, 116)">
+      <rect x="0" y="0" width="375" height="26" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1" />
+      <text x="187" y="17" text-anchor="middle" class="mono" fill="#7ee787" font-size="11" font-weight="bold">
+        ⚡ SOFTWARE DEVELOPER // FULL-STACK JAVA ⚡
+      </text>
+    </g>
+
+    <!-- Workstation System Diagnostic Terminal Card -->
+    <g transform="translate(0, 154)">
+      <rect x="0" y="0" width="375" height="184" rx="6" fill="url(#cardGrad)" stroke="#30363d" stroke-width="1" />
+      
+      <!-- Card Header -->
+      <path d="M 0 6 Q 0 0 6 0 L 369 0 Q 375 0 375 6 L 375 26 L 0 26 Z" fill="#161b22" />
+      <line x1="0" y1="26" x2="375" y2="26" stroke="#30363d" stroke-width="1" />
+      <text x="12" y="17" class="mono" fill="#8b949e" font-size="11" font-weight="600">● RUNTIME SYSTEM STATUS</text>
+      <text x="360" y="17" text-anchor="end" class="mono" fill="#39d353" font-size="11" font-weight="600">READY [100%]</text>
+
+      <!-- Diagnostic Metrics -->
+      <g transform="translate(14, 46)" class="mono" font-size="11.5">
+        <text x="0" y="0" fill="#58a6ff">&gt; <tspan fill="#e6edf3">CORE ENGINE</tspan> : <tspan fill="#ffa657" font-weight="600">Java 21 &amp; Spring Boot</tspan></text>
+        <text x="0" y="24" fill="#58a6ff">&gt; <tspan fill="#e6edf3">UI RUNTIME</tspan>  : <tspan fill="#79c0ff" font-weight="600">React &amp; Next.js 14</tspan></text>
+        <text x="0" y="48" fill="#58a6ff">&gt; <tspan fill="#e6edf3">SERVICES</tspan>    : <tspan fill="#7ee787" font-weight="600">Node.js &amp; Express APIs</tspan></text>
+        <text x="0" y="72" fill="#58a6ff">&gt; <tspan fill="#e6edf3">DATA POOL</tspan>   : <tspan fill="#f1fa8c" font-weight="600">MySQL / Oracle / MongoDB</tspan></text>
+        <text x="0" y="96" fill="#58a6ff">&gt; <tspan fill="#e6edf3">CLOUD INFRA</tspan> : <tspan fill="#a855f7" font-weight="600">Docker &amp; AWS Deployment</tspan></text>
+
+        <!-- Progress Bar -->
+        <g transform="translate(0, 114)">
+          <text x="0" y="0" fill="#8b949e" font-size="10.5">BUILD STATUS</text>
+          <rect x="85" y="-9" width="260" height="10" rx="3" fill="#21262d" />
+          <rect x="85" y="-9" width="260" height="10" rx="3" fill="url(#neonGreen)" />
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- Vertical Divider Separator -->
+  <line x1="435" y1="54" x2="435" y2="415" stroke="#30363d" stroke-width="1.2" stroke-dasharray="3,3" />
+
+  <!-- ==================== RIGHT COLUMN: NEOFETCH SYSTEM PANEL ==================== -->
+  <g transform="translate(460, 64)">
+    <!-- Header: aritra@github -->
+    <text x="0" y="0" class="mono" font-size="16">
+      <tspan fill="#00f0ff" font-weight="bold">aritra</tspan><tspan fill="#8b949e">@</tspan><tspan fill="#39d353" font-weight="bold">github</tspan>
+    </text>
+    
+    <!-- Separator Line -->
+    <text x="0" y="18" class="mono" fill="#30363d" font-size="11" xml:space="preserve">─────────────────────────────────────────────────────</text>
+
+    <!-- Confirmed Profile Specs Table -->
+    <g transform="translate(0, 42)" class="mono" font-size="12">
+      <!-- Line 1: User -->
+      <text x="0" y="0" xml:space="preserve"><tspan fill="#ffa657" font-weight="600">User</tspan><tspan fill="#30363d"> ............ </tspan><tspan fill="#f0f6fc" font-weight="600">Aritra Mondal</tspan> <tspan fill="#8b949e">(@AritraMondal664)</tspan></text>
+
+      <!-- Line 2: Role -->
+      <text x="0" y="24" xml:space="preserve"><tspan fill="#ffa657" font-weight="600">Role</tspan><tspan fill="#30363d"> ............ </tspan><tspan fill="#39d353" font-weight="bold">Software Developer</tspan></text>
+
+      <!-- Line 3: Focus -->
+      <text x="0" y="48" xml:space="preserve"><tspan fill="#ffa657" font-weight="600">Focus</tspan><tspan fill="#30363d"> ........... </tspan><tspan fill="#79c0ff" font-weight="600">Java &amp; Full-Stack Development</tspan></text>
+
+      <!-- Line 4: Languages -->
+      <text x="0" y="72" xml:space="preserve"><tspan fill="#ffa657" font-weight="600">Languages</tspan><tspan fill="#30363d"> ....... </tspan><tspan fill="#fed7aa">Java, Python, JavaScript, HTML, CSS</tspan></text>
+
+      <!-- Line 5: Backend -->
+      <text x="0" y="96" xml:space="preserve"><tspan fill="#ffa657" font-weight="600">Backend</tspan><tspan fill="#30363d"> ......... </tspan><tspan fill="#f0f6fc">Spring Boot, Node.js, Express.js</tspan></text>
+
+      <!-- Line 6: Frontend -->
+      <text x="0" y="120" xml:space="preserve"><tspan fill="#ffa657" font-weight="600">Frontend</tspan><tspan fill="#30363d"> ........ </tspan><tspan fill="#f0f6fc">React, Next.js, Tailwind CSS</tspan></text>
+
+      <!-- Line 7: Database -->
+      <text x="0" y="144" xml:space="preserve"><tspan fill="#ffa657" font-weight="600">Databases</tspan><tspan fill="#30363d"> ....... </tspan><tspan fill="#f1fa8c">MySQL, Oracle, MongoDB, SQL</tspan></text>
+
+      <!-- Line 8: Tools -->
+      <text x="0" y="168" xml:space="preserve"><tspan fill="#ffa657" font-weight="600">Tools</tspan><tspan fill="#30363d"> ........... </tspan><tspan fill="#f0f6fc">JDBC, Git, GitHub, Docker, AWS, Netlify</tspan></text>
+
+      <!-- Line 9: Contact -->
+      <text x="0" y="192" xml:space="preserve"><tspan fill="#ffa657" font-weight="600">Contact</tspan><tspan fill="#30363d"> ......... </tspan><tspan fill="#7ee787">aritra.work2001@gmail.com</tspan></text>
+
+      <!-- Line 10: Location -->
+      <text x="0" y="216" xml:space="preserve"><tspan fill="#ffa657" font-weight="600">Location</tspan><tspan fill="#30363d"> ........ </tspan><tspan fill="#8b949e">Kolkata, India</tspan></text>
+    </g>
+
+    <!-- Bottom Separator -->
+    <text x="0" y="302" class="mono" fill="#30363d" font-size="11" xml:space="preserve">─────────────────────────────────────────────────────</text>
+
+    <!-- Terminal Color Palette Blocks (ANSI 8 Colors) -->
+    <g transform="translate(0, 322)">
+      <text x="0" y="14" class="mono" fill="#8b949e" font-size="11.5" font-weight="600">Palette ...... </text>
+      <rect x="90" y="2" width="20" height="15" rx="3" fill="#ff5555" />
+      <rect x="115" y="2" width="20" height="15" rx="3" fill="#ffb86c" />
+      <rect x="140" y="2" width="20" height="15" rx="3" fill="#f1fa8c" />
+      <rect x="165" y="2" width="20" height="15" rx="3" fill="#50fa7b" />
+      <rect x="190" y="2" width="20" height="15" rx="3" fill="#8be9fd" />
+      <rect x="215" y="2" width="20" height="15" rx="3" fill="#bd93f9" />
+      <rect x="240" y="2" width="20" height="15" rx="3" fill="#ff79c6" />
+      <rect x="265" y="2" width="20" height="15" rx="3" fill="#f8f8f2" />
+
+      <!-- Blinking Terminal Cursor -->
+      <rect x="296" y="2" width="8" height="15" fill="#00f0ff" class="cursor" />
+    </g>
+  </g>
 </svg>
