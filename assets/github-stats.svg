@@ -1,10 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 195" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 195" width="100%" height="100%">
   <defs>
+    <!-- Muted background -->
     <linearGradient id="statsBg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0e131a" />
       <stop offset="50%" stop-color="#0d1117" />
       <stop offset="100%" stop-color="#0a0d13" />
     </linearGradient>
+
+    <!-- Gentle muted bar gradients -->
     <linearGradient id="barJava" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#d29922" />
       <stop offset="100%" stop-color="#e3b341" />
@@ -29,25 +32,25 @@
     }
   </style>
 
-  <!-- Container Box -->
-  <rect x="2" y="2" width="916" height="191" rx="8" ry="8" fill="url(#statsBg)" stroke="#30363d" stroke-width="1.2" />
+  <!-- Container Box with gentle slate border -->
+  <rect x="2" y="2" width="996" height="191" rx="8" ry="8" fill="url(#statsBg)" stroke="#30363d" stroke-width="1.2" />
 
   <!-- Top Bar -->
-  <path d="M 2 10 Q 2 2 10 2 L 910 2 Q 918 2 918 10 L 918 32 L 2 32 Z" fill="#161b22" />
-  <line x1="2" y1="32" x2="918" y2="32" stroke="#30363d" stroke-width="1" />
+  <path d="M 2 10 Q 2 2 10 2 L 990 2 Q 998 2 998 10 L 998 32 L 2 32 Z" fill="#161b22" />
+  <line x1="2" y1="32" x2="998" y2="32" stroke="#30363d" stroke-width="1" />
 
-  <!-- Window Dots -->
-  <circle cx="18" cy="17" r="4.5" fill="#f85149" opacity="0.85" />
-  <circle cx="32" cy="17" r="4.5" fill="#d29922" opacity="0.85" />
-  <circle cx="46" cy="17" r="4.5" fill="#3fb950" opacity="0.85" />
+  <!-- Soft Window Dots -->
+  <circle cx="20" cy="17" r="4.5" fill="#f85149" opacity="0.8" />
+  <circle cx="35" cy="17" r="4.5" fill="#d29922" opacity="0.8" />
+  <circle cx="50" cy="17" r="4.5" fill="#3fb950" opacity="0.8" />
 
-  <!-- Title -->
-  <text x="460" y="21" text-anchor="middle" class="mono" fill="#8b949e" font-size="11.5" font-weight="500">
+  <!-- Window Title -->
+  <text x="500" y="21" text-anchor="middle" class="mono" fill="#8b949e" font-size="11.5" font-weight="500">
     metrics@github: ~/AritraMondal664/analytics
   </text>
 
-  <!-- COLUMN 1: Profile Metrics (x: 25 to 290) -->
-  <g transform="translate(25, 56)" class="mono">
+  <!-- COLUMN 1: Profile Metrics (x: 30 to 290) -->
+  <g transform="translate(30, 56)" class="mono">
     <text x="0" y="0" fill="#79c0ff" font-size="12" font-weight="600">📊 PROFILE METRICS</text>
     <line x1="0" y1="9" x2="250" y2="9" stroke="#30363d" stroke-width="1" />
 
@@ -76,10 +79,10 @@
   </g>
 
   <!-- Vertical Divider 1 -->
-  <line x1="300" y1="44" x2="300" y2="180" stroke="#30363d" stroke-width="1" stroke-dasharray="2,2" />
+  <line x1="310" y1="44" x2="310" y2="180" stroke="#30363d" stroke-width="1" stroke-dasharray="2,2" />
 
-  <!-- COLUMN 2: Stack Distribution (x: 320 to 590) -->
-  <g transform="translate(320, 56)" class="mono">
+  <!-- COLUMN 2: Stack Distribution (x: 335 to 615) -->
+  <g transform="translate(335, 56)" class="mono">
     <text x="0" y="0" fill="#79c0ff" font-size="12" font-weight="600">⚡ STACK DISTRIBUTION</text>
     <line x1="0" y1="9" x2="260" y2="9" stroke="#30363d" stroke-width="1" />
 
@@ -117,12 +120,12 @@
   </g>
 
   <!-- Vertical Divider 2 -->
-  <line x1="605" y1="44" x2="605" y2="180" stroke="#30363d" stroke-width="1" stroke-dasharray="2,2" />
+  <line x1="625" y1="44" x2="625" y2="180" stroke="#30363d" stroke-width="1" stroke-dasharray="2,2" />
 
-  <!-- COLUMN 3: Dev Environment -->
-  <g transform="translate(625, 56)" class="mono">
+  <!-- COLUMN 3: Dev Environment (x: 650 to 950, 50px right margin) -->
+  <g transform="translate(650, 56)" class="mono">
     <text x="0" y="0" fill="#79c0ff" font-size="12" font-weight="600">🛠️ DEV ENVIRONMENT</text>
-    <line x1="0" y1="9" x2="260" y2="9" stroke="#30363d" stroke-width="1" />
+    <line x1="0" y1="9" x2="280" y2="9" stroke="#30363d" stroke-width="1" />
 
     <g transform="translate(0, 30)" font-size="11.5">
       <text x="0" y="0">
@@ -133,7 +136,7 @@
       <text x="0" y="22">
         <tspan fill="#8b949e">Containers</tspan>
         <tspan fill="#484f58"> ..... </tspan>
-        <tspan fill="#79c0ff">Docker</tspan>
+        <tspan fill="#79c0ff">Docker Engine</tspan>
       </text>
       <text x="0" y="44">
         <tspan fill="#8b949e">Cloud Target</tspan>
@@ -143,7 +146,7 @@
       <text x="0" y="66">
         <tspan fill="#8b949e">Architecture</tspan>
         <tspan fill="#484f58"> ... </tspan>
-        <tspan fill="#d2a8ff">REST &amp; APIs</tspan>
+        <tspan fill="#d2a8ff">REST &amp; Full-Stack</tspan>
       </text>
     </g>
   </g>
