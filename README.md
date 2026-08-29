@@ -88,19 +88,19 @@ aritra@github:~$ cat contact.txt
 PORTFOLIO ...... https://aritramondalportfolio.netlify.app/
 LINKEDIN ....... https://www.linkedin.com/in/aritra-mondal-2b8a05363/
 GITHUB ......... https://github.com/AritraMondal664
-EMAIL .......... mailto:aritra.work2001@gmail.com
+EMAIL .......... aritra.work2001@gmail.com
 --------------------------------------------------------------------------------
 ```
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-161b22?style=flat-square&logo=netlify&logoColor=79c0ff)](https://aritramondalportfolio.netlify.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-161b22?style=flat-square&logo=netlify&logoColor=00C7B7)](https://aritramondalportfolio.netlify.app/)
 &nbsp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-161b22?style=flat-square&logo=linkedin&logoColor=79c0ff)](https://www.linkedin.com/in/aritra-mondal-2b8a05363/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-161b22?style=flat-square&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/aritra-mondal-2b8a05363/)
 &nbsp;
-[![GitHub](https://img.shields.io/badge/GitHub-161b22?style=flat-square&logo=github&logoColor=79c0ff)](https://github.com/AritraMondal664)
+[![GitHub](https://img.shields.io/badge/GitHub-161b22?style=flat-square&logo=github&logoColor=white)](https://github.com/AritraMondal664)
 &nbsp;
-[![Email](https://img.shields.io/badge/Email-161b22?style=flat-square&logo=gmail&logoColor=79c0ff)](mailto:aritra.work2001@gmail.com)
+[![Email](https://img.shields.io/badge/Email-161b22?style=flat-square&logo=gmail&logoColor=EA4335)](mailto:aritra.work2001@gmail.com)
 
 <br/>
 
