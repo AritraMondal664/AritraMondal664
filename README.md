@@ -50,6 +50,12 @@ aritra@github:~$ cat tech-stack.json
 
 ### 📂 `02_PROJECTS`
 
+<div align="right">
+  <a href="https://github.com/AritraMondal664/AritraMondal664/edit/main/README.md" title="Click to edit or update recent projects">
+    <img src="https://img.shields.io/badge/✏️%20Edit%20%2F%20Update%20Projects-161b22?style=flat-square&logo=github&logoColor=79c0ff" alt="Edit Projects on GitHub" />
+  </a>
+</div>
+
 ```bash
 aritra@github:~$ ls ./projects
 01  KARNANI-ASSOCIATES
@@ -175,6 +181,39 @@ aritra@github:~$ ls ./projects
     </tr>
   </tbody>
 </table>
+
+<details>
+  <summary><b>⚙️ Quick Guide: How to update or add recent projects (Click to expand)</b></summary>
+  <br/>
+
+  1. Click **[✏️ Edit / Update Projects](https://github.com/AritraMondal664/AritraMondal664/edit/main/README.md)** above.
+  2. Find the `02_PROJECTS` table and paste this block inside `<tbody>`:
+
+  ```html
+  <tr>
+    <td>
+      <b>0X / <a href="https://github.com/AritraMondal664/YOUR-REPO">Project Name</a></b><br/>
+      <sub>Short description of what the project does</sub><br/><br/>
+      <a href="https://github.com/AritraMondal664/YOUR-REPO">
+        <code>[ View Repository ]</code>
+      </a>
+    </td>
+    <td>
+      • Core feature / highlight 1<br/>
+      • Core feature / highlight 2<br/>
+      • Core feature / highlight 3
+    </td>
+    <td>
+      <code>Tech 1</code><br/>
+      <code>Tech 2</code><br/>
+      <code>Tech 3</code>
+    </td>
+  </tr>
+  ```
+
+  3. Update the `$ ls ./projects` list at the top of the section to match your project names.
+  4. Scroll down and click **Commit changes** to publish instantly!
+</details>
 
 ---
 
