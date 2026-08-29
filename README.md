@@ -96,7 +96,7 @@ EMAIL .......... aritra.work2001@gmail.com
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-161b22?style=flat-square&logo=netlify&logoColor=00C7B7)](https://aritramondalportfolio.netlify.app/)
 &nbsp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-161b22?style=flat-square&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/aritra-mondal-2b8a05363/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-161b22?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aritra-mondal-2b8a05363/)
 &nbsp;
 [![GitHub](https://img.shields.io/badge/GitHub-161b22?style=flat-square&logo=github&logoColor=white)](https://github.com/AritraMondal664)
 &nbsp;
