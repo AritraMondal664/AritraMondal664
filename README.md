@@ -11,7 +11,7 @@
 aritra@github:~$ whoami
 
 ARITRA MONDAL
-Software Developer
+Software Developer — Java & Full-Stack Systems
 
 aritra@github:~$ focus
 
@@ -48,176 +48,7 @@ aritra@github:~$ cat tech-stack.json
 
 ---
 
-### 📂 `02_PROJECTS`
-
-<div align="right">
-  <a href="https://github.com/AritraMondal664/AritraMondal664/edit/main/README.md" title="Click to edit or update recent projects">
-    <img src="https://img.shields.io/badge/✏️%20Edit%20%2F%20Update%20Projects-161b22?style=flat-square&logo=github&logoColor=79c0ff" alt="Edit Projects on GitHub" />
-  </a>
-</div>
-
-```bash
-aritra@github:~$ ls ./projects
-01  KARNANI-ASSOCIATES
-02  HILLTAIN-GROUP
-03  BANKING-APPLICATION
-04  ONLINE-SHOPPING-CART
-05  GUN-DETECTION-TOOL
-```
-
-<table>
-  <thead>
-    <tr>
-      <th width="35%" align="left"><b>Project</b></th>
-      <th width="45%" align="left"><b>Key Features</b></th>
-      <th width="20%" align="left"><b>Stack</b></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <b>01 / <a href="https://github.com/AritraMondal664/karnani-associates-website">Karnani & Associates</a></b><br/>
-        <sub>Corporate & appointment platform</sub><br/><br/>
-        <a href="https://github.com/AritraMondal664/karnani-associates-website">
-          <code>[ View Repository ]</code>
-        </a>
-      </td>
-      <td>
-        • REST API integration & CRUD operations<br/>
-        • Appointment management workflow<br/>
-        • JWT authentication & protected admin routes<br/>
-        • Password reset via Nodemailer<br/>
-        • Responsive UI with Framer Motion
-      </td>
-      <td>
-        <code>React JS</code><br/>
-        <code>Tailwind CSS</code><br/>
-        <code>Node.js</code><br/>
-        <code>Express.js</code><br/>
-        <code>MongoDB</code><br/>
-        <code>Axios</code>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <b>02 / <a href="https://github.com/AritraMondal664/hilltain-portfolio">Hilltain Group</a></b><br/>
-        <sub>Engineering tech corporate website</sub><br/><br/>
-        <a href="https://github.com/AritraMondal664/hilltain-portfolio">
-          <code>[ View Repository ]</code>
-        </a>
-      </td>
-      <td>
-        • Modular corporate layout with reusable sections<br/>
-        • Services, industries & workflow showcases<br/>
-        • Interactive animations (GSAP & Framer Motion)<br/>
-        • WhatsApp integration & contact navigation<br/>
-        • Production deployment through Netlify
-      </td>
-      <td>
-        <code>Next.js</code><br/>
-        <code>TypeScript</code><br/>
-        <code>Tailwind CSS</code><br/>
-        <code>GSAP</code><br/>
-        <code>Framer Motion</code><br/>
-        <code>Netlify</code>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <b>03 / <a href="https://github.com/AritraMondal664/Banking-Application">Banking Management System</a></b><br/>
-        <sub>Transactional banking application</sub><br/><br/>
-        <a href="https://github.com/AritraMondal664/Banking-Application">
-          <code>[ View Repository ]</code>
-        </a>
-      </td>
-      <td>
-        • Account creation, deposits & withdrawals<br/>
-        • Real-time balance checks & transaction history<br/>
-        • Relational database connectivity via JDBC
-      </td>
-      <td>
-        <code>Java Swing</code><br/>
-        <code>JDBC</code><br/>
-        <code>MySQL</code>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <b>04 / <a href="https://github.com/AritraMondal664/Online-Shopping-Cart">Online Shopping Cart</a></b><br/>
-        <sub>E-commerce cart management</sub><br/><br/>
-        <a href="https://github.com/AritraMondal664/Online-Shopping-Cart">
-          <code>[ View Repository ]</code>
-        </a>
-      </td>
-      <td>
-        • Dynamic product listings & cart management<br/>
-        • Input validation & automated order processing<br/>
-        • Inventory data management with Oracle DB
-      </td>
-      <td>
-        <code>HTML</code><br/>
-        <code>CSS</code><br/>
-        <code>JavaScript</code><br/>
-        <code>Oracle DB</code>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <b>05 / <a href="https://github.com/AritraMondal664/GUN_DETECTION_TOOL">Gun Detection Tool</a></b><br/>
-        <sub>Computer vision security tool</sub><br/><br/>
-        <a href="https://github.com/AritraMondal664/GUN_DETECTION_TOOL">
-          <code>[ View Repository ]</code>
-        </a>
-      </td>
-      <td>
-        • Firearm detection from images and video streams<br/>
-        • Object detection capabilities using deep learning
-      </td>
-      <td>
-        <code>Python</code><br/>
-        <code>OpenCV</code><br/>
-        <code>TensorFlow</code>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-<details>
-  <summary><b>⚙️ Quick Guide: How to update or add recent projects (Click to expand)</b></summary>
-  <br/>
-
-  1. Click **[✏️ Edit / Update Projects](https://github.com/AritraMondal664/AritraMondal664/edit/main/README.md)** above.
-  2. Find the `02_PROJECTS` table and paste this block inside `<tbody>`:
-
-  ```html
-  <tr>
-    <td>
-      <b>0X / <a href="https://github.com/AritraMondal664/YOUR-REPO">Project Name</a></b><br/>
-      <sub>Short description of what the project does</sub><br/><br/>
-      <a href="https://github.com/AritraMondal664/YOUR-REPO">
-        <code>[ View Repository ]</code>
-      </a>
-    </td>
-    <td>
-      • Core feature / highlight 1<br/>
-      • Core feature / highlight 2<br/>
-      • Core feature / highlight 3
-    </td>
-    <td>
-      <code>Tech 1</code><br/>
-      <code>Tech 2</code><br/>
-      <code>Tech 3</code>
-    </td>
-  </tr>
-  ```
-
-  3. Update the `$ ls ./projects` list at the top of the section to match your project names.
-  4. Scroll down and click **Commit changes** to publish instantly!
-</details>
-
----
-
-### 📊 `03_GITHUB_STATISTICS`
+### 📊 `02_SYSTEM_METRICS`
 
 ```bash
 aritra@github:~$ systemctl status github-metrics.service
@@ -229,25 +60,23 @@ aritra@github:~$ systemctl status github-metrics.service
 
 ---
 
-### ⚡ `04_CURRENTLY`
+### ⚡ `03_CURRENT_FOCUS`
 
 ```bash
-aritra@github:~$ cat currently.txt
+aritra@github:~$ cat /etc/current-focus.conf
 ```
 
-```text
-Currently focused on:
-- Java backend development
-- Spring Boot
-- REST APIs
-- SQL and databases
-- Full-stack development
-- Modern web applications
+```yaml
+Directives:
+  - Java backend engineering & Spring Boot microservices
+  - Relational & NoSQL database architecture (MySQL, Oracle, MongoDB)
+  - Full-stack web application development (React / Next.js)
+  - Containerization & deployment pipelines (Docker, AWS, Netlify)
 ```
 
 ---
 
-### 📡 `05_CONNECT`
+### 📡 `04_CONNECT`
 
 ```bash
 aritra@github:~$ cat contact.txt
@@ -258,24 +87,24 @@ aritra@github:~$ cat contact.txt
 PORTFOLIO ...... https://aritramondal.dev
 LINKEDIN ....... https://www.linkedin.com/in/aritra-mondal-dev
 GITHUB ......... https://github.com/AritraMondal664
-EMAIL .......... mailto:aritramondal.dev@gmail.com
+EMAIL .......... mailto:aritra.work2001@gmail.com
 --------------------------------------------------------------------------------
 ```
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-00f0ff?style=flat-square&logo=googlechrome&logoColor=black)](https://aritramondal.dev)
+[![Portfolio](https://img.shields.io/badge/Portfolio-161b22?style=flat-square&logo=googlechrome&logoColor=79c0ff)](https://aritramondal.dev)
 &nbsp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aritra-mondal-dev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-161b22?style=flat-square&logo=linkedin&logoColor=79c0ff)](https://www.linkedin.com/in/aritra-mondal-dev)
 &nbsp;
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AritraMondal664)
+[![GitHub](https://img.shields.io/badge/GitHub-161b22?style=flat-square&logo=github&logoColor=79c0ff)](https://github.com/AritraMondal664)
 &nbsp;
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:aritramondal.dev@gmail.com)
+[![Email](https://img.shields.io/badge/Email-161b22?style=flat-square&logo=gmail&logoColor=79c0ff)](mailto:aritra.work2001@gmail.com)
 
 <br/>
 
 <img src="./assets/terminal-line.svg" width="100%" />
 
-<sub>Terminal Dashboard • <b>Aritra Mondal</b> (AritraMondal664)</sub>
+<sub>⚡ Monospace Terminal Dashboard • <b>Aritra Mondal</b></sub>
 
 </div>
